@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!%+&t4b=37@$+8vywwe@0rq5hcs@-jkr5ia0szc97-2o$y7ks3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['worldnewsweb.azurewebsites.net','*' ]
 
 
 # Application definition
