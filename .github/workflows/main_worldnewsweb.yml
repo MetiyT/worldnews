@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Worldnewsweb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D4CD6A4779F4302A36E7944F135626D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3828C1170B544A62BA37C653EF4FD072 }}
