@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News Home Page</title>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'news/style.css' %}">
+</head>
+<body>
+  <header>
+    <h1>Latest News</h1>
+  </header>
+
+  <section class="news-section">
+    <div class="news-card">
+      <img src="{% static 'news/news-1.jpg' %}" alt="News 1 Image">
+      <div class="news-details">
+        <h2>Breaking News</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel mi non est fringilla tincidunt. In hac habitasse platea dictumst.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="{% static 'news/news-2.jpg' %}" alt="News 2 Image">
+      <div class="news-details">
+        <h2>Top Story</h2>
+        <p>Curabitur auctor felis vel turpis laoreet, a bibendum metus malesuada. Ut nec commodo ligula. Sed vehicula gravida neque, at hendrerit lectus mollis ut.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="{% static 'news/news-3.jpg' %}" alt="News 3 Image">
+      <div class="news-details">
+        <h2>Sports Update</h2>
+        <p>Nullam nec turpis id turpis fermentum posuere et sit amet justo. Sed vitae malesuada massa. Ut finibus mi a arcu elementum, et auctor tortor ultrices.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="{% static 'news/news-4.jpg' %}" alt="News 4 Image">
+      <div class="news-details">
+        <h2>Entertainment News</h2>
+        <p>Praesent finibus tellus sed ullamcorper lobortis. Morbi non pulvinar ante. Duis lacinia dui eget augue mattis, ut cursus nisl volutpat.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 News Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
